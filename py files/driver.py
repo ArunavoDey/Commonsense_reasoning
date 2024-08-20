@@ -2,7 +2,7 @@ import sys
 import os
 #import huggingface_hub
 #from huggingface_hub import login
-#login("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")
+#login("Your Huggingface key here")
 from typing import Dict, List
 from datasets import Dataset, load_dataset, disable_caching
 #disable_caching() disable huggingface cache

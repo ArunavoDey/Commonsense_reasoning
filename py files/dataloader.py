@@ -44,7 +44,7 @@ class dataLoader():
     rec["text"] = rec["prompt"] + rec["answer"]
     return rec
   def loadData(self):
-    login("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")
+    login("###")#use your huggingface login key here. Follow Huggingface directions to generate key
     disable_caching()
     dataset = load_dataset(self.src_path, split = 'train')
     self.small_dataset = dataset.select([i for i in range(200)])
